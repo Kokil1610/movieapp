@@ -1,18 +1,20 @@
 {
-  "name": "nodejs-structure",
+  "name": "movieapp",
   "version": "1.0.0",
-  "description": "node.js structure with express.js for simple backend application",
-  "main": "./src/app.js",
+  "description": "node.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "nodemon transpiled/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Majid Ashraf",
+  "author": "Kokil Agnihotri",
   "license": "ISC",
   "dependencies": {
      "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.9.24"
+    "mongoose": "^5.9.24",
+    "ejs": "^2.6.1",
+    "request": "^2.87.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
